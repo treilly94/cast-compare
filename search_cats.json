@@ -1,0 +1,27 @@
+{
+    "Search": [
+        {
+            "Title": "Cats & Dogs",
+            "Year": "2001",
+            "imdbID": "tt0239395",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BY2JmMDJlMmEtYTk4OS00YWQ5LTk2NzMtM2M3NzhkMjI4MGJkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Cats",
+            "Year": "2019",
+            "imdbID": "tt5697572",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNjRlNTY3MTAtOTViMS00ZjE5LTkwZGItMGYwNGQwMjg2NTEwXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Cats & Dogs: The Revenge of Kitty Galore",
+            "Year": "2010",
+            "imdbID": "tt1287468",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTYwNTk2NTc3OV5BMl5BanBnXkFtZTcwMDUwMzgyMw@@._V1_SX300.jpg"
+        }
+    ],
+    "totalResults": "297",
+    "Response": "True"
+}
