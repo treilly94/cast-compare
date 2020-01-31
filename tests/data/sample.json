@@ -1,0 +1,15 @@
+{
+  "string": "John",
+  "num": 30,
+  "bool": true,
+  "null_value": null,
+  "list": [
+    "1",
+    "2",
+    "3"
+  ],
+  "object": {
+    "string": "John",
+    "num": 30
+  }
+}

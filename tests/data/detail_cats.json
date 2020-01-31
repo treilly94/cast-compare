@@ -1,0 +1,36 @@
+{
+    "Title": "Cats",
+    "Year": "2019",
+    "Rated": "PG",
+    "Released": "20 Dec 2019",
+    "Runtime": "110 min",
+    "Genre": "Comedy, Drama, Family, Fantasy, Musical",
+    "Director": "Tom Hooper",
+    "Writer": "T.S. Eliot (poetry collection \"Old Possum's Books of Practical Cats\"), Lee Hall (screenplay), Tom Hooper (screenplay), Andrew Lloyd Webber (musical)",
+    "Actors": "Jennifer Hudson, Judi Dench, Taylor Swift, Robbie Fairchild",
+    "Plot": "A tribe of cats called the Jellicles must decide yearly which one will ascend to the Heaviside Layer and come back to a new Jellicle life.",
+    "Language": "English",
+    "Country": "UK, USA",
+    "Awards": "Nominated for 1 Golden Globe. Another 1 win & 1 nomination.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNjRlNTY3MTAtOTViMS00ZjE5LTkwZGItMGYwNGQwMjg2NTEwXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg",
+    "Ratings": [
+        {
+            "Source": "Internet Movie Database",
+            "Value": "2.8/10"
+        },
+        {
+            "Source": "Metacritic",
+            "Value": "32/100"
+        }
+    ],
+    "Metascore": "32",
+    "imdbRating": "2.8",
+    "imdbVotes": "20,921",
+    "imdbID": "tt5697572",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+}
