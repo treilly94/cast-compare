@@ -13,7 +13,7 @@ class TestApi(TestCase):
     @httpretty.activate
     def test_query_api(self):
         # Read data for mock response
-        with open("data/sample.json", "r", encoding="utf-8") as file:
+        with open("tests/data/sample.json", "r", encoding="utf-8") as file:
             json = file.read()
 
         # Mock the response
@@ -41,12 +41,12 @@ class TestApi(TestCase):
 
         result = self.api.query_api(url="http://www.test.com/")
 
-        self.assertEquals(expected, result)
+        self.assertEqual(expected, result)
 
     @httpretty.activate
     def test_search(self):
         # Read data for mock response
-        with open("data/search_cats.json", "r", encoding="utf-8") as file:
+        with open("tests/data/search_cats.json", "r", encoding="utf-8") as file:
             json = file.read()
 
         # Mock the response
@@ -86,12 +86,12 @@ class TestApi(TestCase):
 
         result = self.api.search(title="cats")
 
-        self.assertEquals(expected, result)
+        self.assertEqual(expected, result)
 
     @httpretty.activate
     def test_detail(self):
         # Read data for mock response
-        with open("data/detail_cats.json", "r", encoding="utf-8") as file:
+        with open("tests/data/detail_cats.json", "r", encoding="utf-8") as file:
             json = file.read()
 
         # Mock the response
@@ -140,4 +140,4 @@ class TestApi(TestCase):
 
         result = self.api.detail(imdb_id="test_id")
 
-        self.assertEquals(expected, result)
+        self.assertEqual(expected, result)
