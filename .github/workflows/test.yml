@@ -1,0 +1,15 @@
+name: Greet Everyone
+
+on: [push]
+
+jobs:
+  build:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install dependencies
+        run: make init
+      - name: Lint
+        run: make lint
+      - name: Run tests
+        run: make test
