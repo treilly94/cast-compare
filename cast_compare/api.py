@@ -1,7 +1,10 @@
+"""This module gets movie info from the omdbapi-"""
+
 import requests
 
 
 class Api:
+    """This class is used for interfacing with the omdbapi"""
 
     def __init__(self, api_key):
         self.root_url = "http://www.omdbapi.com/?apikey=" + api_key

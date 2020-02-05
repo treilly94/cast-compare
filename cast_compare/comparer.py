@@ -1,4 +1,8 @@
+"""This module compares the cast/crew of two or more movies"""
+
+
 class Comparer:
+    """This class compares movies"""
 
     movie_list = []
 
@@ -7,11 +11,11 @@ class Comparer:
 
     def compare(self):
         """Compare cast/crew of movies"""
-        pass
+        print(self.movie_list)
 
-    def add_movie(self):
+    def add_movie(self, title):
         """Add a movie to the list"""
-        pass
+        self.movie_list.append(title)
 
     def remove_movie(self, title, clear_all=False):
         """Remove movie(s) from list"""
