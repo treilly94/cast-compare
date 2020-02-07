@@ -19,7 +19,11 @@ class Api:
     def search(self, title):
         """Search for movie titles"""
         url = self.root_url + "&s=" + title
-        return self.query_api(url=url)
+        response = self.query_api(url=url)
+        if response["Response"] == "False":
+            print("No search results")
+        elif response["Response"] == "True":
+            return response["Search"]
 
     def detail(self, imdb_id):
         """Get movie details from a IMDb Id"""

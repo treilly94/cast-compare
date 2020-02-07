@@ -56,8 +56,7 @@ class TestApi(TestCase):
             body=json
         )
 
-        expected = {
-            "Search": [
+        expected = [
                 {
                     "Title": "Cats & Dogs",
                     "Year": "2001",
@@ -79,10 +78,7 @@ class TestApi(TestCase):
                     "Type": "movie",
                     "Poster": "https://m.media-amazon.com/images/M/MV5BMTYwNTk2NTc3OV5BMl5BanBnXkFtZTcwMDUwMzgyMw@@._V1_SX300.jpg"
                 }
-            ],
-            "totalResults": "297",
-            "Response": "True"
-        }
+            ]
 
         result = self.api.search(title="cats")
 
